@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserPortfolioAddFundsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-06T18:32:34" hostname="DELL7777" time="0.017">
+  <properties/>
+  <testcase name="testAddFunds_FundsAddedCorrectly" classname="UserPortfolioAddFundsTest" time="0.016"/>
+  <testcase name="testAddFunds_FundsAddedIncorrectly" classname="UserPortfolioAddFundsTest" time="0.001"/>
+  <system-out><![CDATA[Test 1 <adding correct value> Start: funds = 0.0
+Test: the amount added to funds = 1000.0
+
+Amount of 1000.0 USD Has been added to your Funds
+Result: funds = 1000.0
+
+Test 2 <adding incorrect value> Start: funds = 0.0
+Test: the amount added to funds = -1000.0
+Negative value is not accepted
+Result: funds = 0.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

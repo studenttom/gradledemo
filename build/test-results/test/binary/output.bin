@@ -1,0 +1,27 @@
+2Test 1 <adding correct value> Start: funds = 0.0
+*Test: the amount added to funds = 1000.0
+
+3Amount of 1000.0 USD Has been added to your Funds
+Result: funds = 1000.0
+
+4Test 2 <adding incorrect value> Start: funds = 0.0
++Test: the amount added to funds = -1000.0
+ Negative value is not accepted
+Result: funds = 0.0
+
+,List of Exchanges operating in uas region.
+
++List of Exchanges operating in AU region.
+1. Exchange full name: ASX
+    Exchange Symbol: ^AORD
+
+3Amount of 1000.0 USD Has been added to your Funds
+
+3Amount of 1000.0 USD Has been added to your Funds
+-You have not enough founds for this request
+
+
+
+
+
+

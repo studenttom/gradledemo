@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserPortfolioGetAssetInformationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-06T18:32:34" hostname="DELL7777" time="2.038">
+  <properties/>
+  <testcase name="getGetAssetInformation_WithInvalidSymbol_ReturnsEmptyList" classname="UserPortfolioGetAssetInformationTest" time="0.836"/>
+  <testcase name="getGetAssetInformation_WithValidSymbol_ReturnsPopulatedList" classname="UserPortfolioGetAssetInformationTest" time="0.426"/>
+  <testcase name="getGetAssetInformation_WithValidSymbol_WithListGreaterThanTen_ReturnsPopulatedList" classname="UserPortfolioGetAssetInformationTest" time="0.772"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
