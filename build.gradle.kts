@@ -22,3 +22,9 @@ tasks.getByName<Test>("test") {
     //useJUnitPlatform()
     useTestNG()
 }
+
+tasks.register("clean"){
+    doLast{
+        println("cleaning task")
+    }
+}
