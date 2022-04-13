@@ -18,13 +18,43 @@ dependencies {
     implementation("org.json:json:20211205")
 }
 
+defaultTasks("cleaning", "running")
+
+tasks.register("cleaning"){
+    doLast{
+        println("Cleaning Task running !!!!!")
+    }
+}
+
+tasks.register("running"){
+    doLast{
+        println("Running  Task Works !")
+    }
+}
+
+tasks.register("deploy"){
+    doLast{
+        println("Deploying !! !")
+    }
+}
+
+
+
 tasks.getByName<Test>("test") {
     //useJUnitPlatform()
     useTestNG()
 }
 
-tasks.register("clean"){
+tasks.register("hello"){
     doLast{
-        println("cleaning task")
+        println("Hello form ")
+    }
+}
+
+
+tasks.register("gradle"){
+    dependsOn("hello")
+    doLast{
+        println("Gradle !!!!!!!")
     }
 }
